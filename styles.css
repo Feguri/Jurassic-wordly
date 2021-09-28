@@ -1,0 +1,298 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+hr {
+    width: 60%;
+    border-style: revert;
+    margin: 28px auto;
+}
+
+@media only screen and (max-width: 1300px) {
+    .filler {
+        display: none !important;
+    }
+    .main-image {
+        height: 450px !important;
+    }
+    .discover h1 {
+        font-size: 30px !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .main-image {
+        height: 350px !important;
+    }
+    .discover h1 {
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .header-links {
+        display: none !important;
+    }
+    .padding-header {
+        display: none !important;
+    }
+}
+
+header {
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    height: 82px;
+    background-color: #fffaf2
+}
+
+main {
+    height: 6000px;
+}
+
+.header-links {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.padding-header {
+    display: flex;
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-image {
+    display: flex;
+    background-image: url("https://images.immediate.co.uk/production/volatile/sites/4/2020/11/dino-hero-b07c8d5.jpg?quality=90&resize=960,413");
+    height: 550px;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.discover {
+    background-color: #ffebcd8c;
+    margin-bottom: 100px;
+    padding: 5px 50px;
+    border-radius: 5px;
+}
+
+.discover h1 {
+    font-size: 50px;
+}
+
+.container {
+    display: flex;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+}
+
+.coconut-hotel {
+    height: 450px;
+    border: 6px solid #311500;
+}
+.main-bg {
+    width: 100%;
+    background-color: blanchedalmond;
+}
+h3 {
+    text-align: center;
+}
+.dino-container {
+    display: grid;
+    height: 500px;
+    width: 100%;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+    grid-row-gap: 40px;
+    padding: 50px 0;
+    background-color: blanchedalmond;
+}
+
+.staff-container {
+    display: flex;
+    height: 400px;
+    width: 100%;
+    padding: 50px 0;
+    background-color: blanchedalmond;
+    border-radius: 4px;
+    justify-content: space-around;
+}
+
+.map-img {
+    height: 700px;
+    width: 700px;
+    border-radius: 4px;
+    border: 6px solid #311500;
+}
+
+.padding-2 {
+    padding: 0 40px;
+}
+.staff-1 {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 300px;
+    justify-content: center;
+}
+
+.staff-pic-1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 290px;
+    height: 400px;
+    border-radius: 2px;
+}
+
+.staff-2 {
+    height: 315px;
+    width: 225px;
+}
+
+.staff-pic-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 224px;
+    height: 257px;
+    border-radius: 2px;
+}
+
+
+.middle {
+    text-align: center;
+     margin: 70px 0;
+}
+
+.hotel-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+img {
+    border: 2px solid #8a7900;
+}
+
+.img-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.final-dino {
+    height: 500px;
+    width:  800px;
+    border: 6px solid #311500
+}
+.padding-1 {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    width: 100%;
+}
+
+.padding-3 {
+    padding: 50px 0;;
+}
+
+button {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0 20px;
+    margin-top: 20px;
+    background-color: blanchedalmond;
+}
+button:hover {
+    background-color: rgb(253, 223, 177)
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.hotel-description h2 {
+    font-size: 30px;
+}
+
+.hotel-description p {
+    font-size: 20px;
+}
+
+.hotel-img-1 {
+    width: 700px;
+    height: 500px;
+    border: 6px solid #311500
+}
+
+.hotel-img-2 {
+    width: 700px;
+    height: 388px;
+    border: 6px solid #311500
+}
+
+.box-img {
+    height: 150px;
+    width: 200px;
+}
+
+.box-div {
+    height: 200px;
+    width: 200px;
+}
+
+.giga {
+    height: 150px;
+    width: 200px;
+    border-radius: 2px;
+}
+
+.hotel-description {
+    width: 24%;
+}
+
+.hotel-wrapper {
+    width: 90%;
+}
+
+.filler {
+    height: 450px;
+    width: 50px;
+    display: block;
+}
+
+a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}
+
+#logo {
+    padding-left: 30px;
+}
