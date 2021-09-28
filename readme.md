@@ -4,4 +4,5 @@ I have attempted to create a website for the Jurassic World Company as a codeaca
 TODO: 
 
 1.Make Website responsive
+
 2.Add a footer
