@@ -6,3 +6,5 @@ TODO:
 1.Make Website responsive
 
 2.Add a footer
+
+3.Make header Fixed
